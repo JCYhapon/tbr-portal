@@ -1,0 +1,85 @@
+mat-toolbar{
+    background-color: #40C1CB;
+    color: white
+}
+
+.menuBtn{
+    margin-right: 10px;
+}
+
+mat-sidenav{
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #40C1CB;
+    /* background: #40C1CB; */
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+
+    img{
+        background-size: cover;
+        height: 12rem;
+        border-radius: 100px;
+    }
+}
+
+.name{
+    margin: 0;
+    margin-top: 8px;
+    font-weight: normal;
+}
+
+.designation{
+    margin-top: 2px;
+    font-size: 0.7rem;
+    color: white;
+}
+
+mat-divider {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.content{
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: gray;
+    border-radius: 10px;
+}
+
+mat-sidenav-container{
+    height: calc(100vh - 65px);
+}
+
+.menu-button{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+
+    mat-icon{
+        margin-right: 8px;
+        color: white;
+    }
+
+    span{
+        color: white;
+    }
+}
+
+.portal-logo {
+    margin-top: 4rem;
+    background-size: fill;
+    width: 160px;
+}
+
+
